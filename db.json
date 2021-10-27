@@ -1,0 +1,200 @@
+{
+  "best-products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Salad Buah",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "6.jpeg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Salad Manggo",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "1.jpeg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Salad Anggur",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "4.jpeg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Salad Manggo 200 ml",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "4.jpeg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Choco Regal Desert 450 ml",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "7.jpeg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Regal Desert Box",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "6.jpeg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Salad Buah 200 ml",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "9.jpeg"
+    },
+    {
+      "id": 5,
+      "kode": "K-04",
+      "nama": "Stup Keju 200/500 ml",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "1.jpeg"
+    },
+    {
+      "id": 6,
+      "kode": "K-04",
+      "nama": "Salad Buah 500 ml",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "10.jpeg"
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": [
+    {
+      "nama": "dimas",
+      "keterangan": "pakai",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "2",
+          "keterangan": "tidak pakai susu",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Salad Manggo 200 ml",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "4.jpeg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "1",
+          "keterangan": "tidak pakai",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Regal Desert Box",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "6.jpeg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nama": "Dimas RIfqi",
+      "keterangan": "Sayang Rizma",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "1",
+          "keterangan": "adwa",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Salad Manggo 200 ml",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "4.jpeg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "3",
+          "keterangan": "adwd",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Choco Regal Desert 450 ml",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "7.jpeg"
+          },
+          "id": 2
+        },
+        {
+          "jumlah_pemesanan": "4",
+          "keterangan": "2awdaw",
+          "products": {
+            "id": 6,
+            "kode": "K-04",
+            "nama": "Salad Buah 500 ml",
+            "harga": 20000,
+            "is_ready": true,
+            "gambar": "10.jpeg"
+          },
+          "id": 3
+        }
+      ],
+      "id": 2
+    },
+    {
+      "nama": "saya saya",
+      "keterangan": "adwadws",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "2",
+          "keterangan": "adaw",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Salad Manggo 200 ml",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "4.jpeg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "nama": "Dimas",
+      "keterangan": "Tidak memakai susu",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "2",
+          "keterangan": "Tidak memakai susu",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Choco Regal Desert 450 ml",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "7.jpeg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 4
+    }
+  ]
+}
